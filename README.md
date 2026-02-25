@@ -213,4 +213,4 @@ For academic collaboration or technical questions regarding the projections avai
 
 ---
 
-> *"For over 160 years, analytic number theory has been that one-dimensional civilisation, staring at the flashes of light we call the zeros of the Riemann Zeta function. Everyone agrees the zeros line up perfectly… yet, have they missed the point?"*
+> *"Everyone agrees the zeros line up perfectly… yet, have they missed the point?"*
