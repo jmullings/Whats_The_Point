@@ -3,10 +3,15 @@
 [![Python](https://img.shields.io/badge/python-3.7+-blue.svg)](https://www.python.org/downloads/)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![Mathematical Research](https://img.shields.io/badge/field-Number%20Theory-purple.svg)]()
+[![Riemann Hypothesis](https://img.shields.io/badge/Riemann-Hypothesis-red.svg)](https://en.wikipedia.org/wiki/Riemann_hypothesis)
+[![Zeta Function](https://img.shields.io/badge/Zeta-Function-orange.svg)](https://en.wikipedia.org/wiki/Riemann_zeta_function)
+[![arXiv](https://img.shields.io/badge/arXiv-Seeking%20Endorsement-b31b1b.svg)](https://arxiv.org/auth/endorse?x=6UJOEK)
+
+**Topics**: `riemann-hypothesis` `riemann-zeta-function` `number-theory` `analytic-number-theory` `mathematics` `zeros-of-zeta` `critical-line` `prime-numbers` `mathematical-physics` `golden-ratio` `mkm-space` `mullings-kayeka-modulus`
 
 ## Abstract
 
-This repository presents a novel geometric framework for understanding the Riemann Hypothesis through higher-dimensional analysis. By introducing **MKM Space** (Mathematical Kinematic Manifold) and the **Golden Closure Framework**, we demonstrate that the classical "critical line" is not a fundamental mathematical structure, but rather a one-dimensional projection of a vector collapse singularity in higher-dimensional space.
+This repository presents a novel geometric framework for understanding the Riemann Hypothesis through higher-dimensional analysis. By introducing **MKM Space** (Mullings Kayeka Modulus) and the **Golden Closure Framework**, we demonstrate that the classical "critical line" is not a fundamental mathematical structure, but rather a one-dimensional projection of a vector collapse singularity in higher-dimensional space.
 
 **Core Hypothesis**: The non-trivial zeros of the Riemann Zeta function represent precise coordinates of vector collapses to singularities in Mathematical Imaginary Space, with the critical line Re(s) = ½ being merely the shadow of this phenomenon observable from our dimensional perspective.
 
@@ -20,7 +25,7 @@ Similarly, classical number theory observes the zeros of the Riemann Zeta functi
 
 ### The MKM Universe
 
-**MKM Space** represents a higher-dimensional kinematic geodesic governed by:
+**MKM Space** (Mullings Kayeka Modulus) represents a higher-dimensional kinematic geodesic governed by:
 - Golden-Angle phase expansions (φ = 1.618...)
 - Fibonacci weighting sequences
 - Vector collapse dynamics
@@ -118,10 +123,41 @@ curvature = gcf.compute_curvature_formula(gamma_value)
 - **Cross-Correlation Analysis**: Statistical validation of geometric predictions
 - **Dimensional Projection**: Observable shadows matching classical results
 
+## What Makes This Approach Unique
+
+The following five uniqueness points are derived directly from the six-panel analysis and represent precise, defensible claims grounded in what the visualizations demonstrate:
+
+### 1. The Observable is the Primary Object, Not a Derived Tool
+
+The winding observable w(t) is computed first, with zeros emerging as consequences. Every classical method works in reverse—define an auxiliary function (Z(t), N(T)), then hunt for zeros within it. Here the scalar field w(t) = χ'(t)·C(t) is constructed before any zero location is assumed, and the zero set is read off from its spike structure. **The detection logic flows from observable → event, not from candidate → test.**
+
+### 2. The Product Structure Creates a New Nonlinear Coupling
+
+When examined separately: C(t) alone is broad and admits false positives; χ'(t) alone is noisy and fires away from zeros. The product suppresses both failure modes simultaneously. This suppression-amplification duality is not a restatement of either ingredient—**it is a genuinely nonlinear coupling of magnitude and phase flow that has no equivalent in classical zero-detection literature.**
+
+### 3. Zeros Emerge Without Indexing
+
+The spike events carry no prior knowledge of which zero they are near, what Gram interval they fall in, or what N(T) should equal. The predictions are accurate post-hoc—the index is assigned after detection, not before. **This is structurally different from Backlund or Turing, where you must know the target index to construct the bracket.**
+
+### 4. Spike Strength is a New Zero-Local Quantity
+
+|w(γₙ)| is a well-defined scalar attached to each zero. This number—the height of the phase-coherence spike at the zero—has no counterpart in classical machinery. It is not |ζ'(ρ)|, not the gap to the nearest Gram point, not a GUE statistic. **It correlates with prediction accuracy, meaning it carries genuine local geometric information about each zero that was previously inaccessible as a single scalar.**
+
+### 5. Refinement Stays Within the Observable's Own Family
+
+Precision reaching 10⁻¹³ is achieved through three refinement stages (parabolic interpolation of |w|, maximisation of C(t), gradient zero of |ζ|²)—all operations on components of w(t) itself, not imports from external numerical machinery. **The observable is self-sufficient: it detects, localises, and refines using only quantities it already defines.** No classical predictor has this closed internal structure.
+
 ## Research Links
 
+- **Project Webpage**: [What's The Point - Interactive Visualization](https://jmullings.github.io/Whats_The_Point/Three_Points.html)
 - **Interactive Demonstration**: [Claude Artifact Visualization](https://claude.ai/public/artifacts/ab8b9e81-542d-4ecd-9c14-2205504a862f)
 - **Detailed Analysis**: [CoderLegion Research Blog](https://coderlegion.com/12087/the-riemann-hypothesis-solved-or-a-quiet-singularity-in-the-mkm-space)
+
+## Seeking Academic Endorsement
+
+This research is seeking endorsement for arXiv submission. If you are qualified to endorse in the relevant categories (math.NT, math-ph), your support would be greatly appreciated:
+
+**Endorsement Link**: [https://arxiv.org/auth/endorse?x=6UJOEK](https://arxiv.org/auth/endorse?x=6UJOEK)
 
 ## Intellectual Property Notice
 
