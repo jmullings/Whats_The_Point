@@ -36,6 +36,17 @@ In this framework:
 - **The critical line becomes a stable attractor** rather than a boundary condition
 - **Vector magnitude vanishes** while directional phase information becomes degenerate
 
+### Avoiding the Locus of Potential Zeros Trap
+
+Most attempted proofs of the Riemann Hypothesis fall into what we term the **Locus of Potential Zeros trap**: they construct a geometric curve in the complex plane, demonstrate that all known zeros lie on it, then argue the curve is too "constrained" to permit off-line zeros. However, such curves can only show where zeros *could* exist—they lack the mathematical power to *force* ζ(s) to vanish at specific locations.
+
+**The MKM Space Solution**: Rather than imposing geometric constraints, our approach builds σ-sensitive observables directly from the functional equation itself. The observable `Nα(σ,t) = |ζ(σ+it) − αζ(1−σ+it)|²` with phase α = e^(iπ/4) creates a natural detection mechanism where:
+- The critical line σ = 1/2 emerges as the minimum location rather than being assumed
+- Zero signatures manifest as simultaneous conditions: σ_min ≈ 1/2 and Nα(1/2,t) ≈ 0
+- The behavior stems from ζ itself, not from imposed symmetries or geometric assumptions
+
+This fundamental shift from *constraining potential locations* to *detecting actual zero signatures* represents a key methodological advance that circumvents the classical trap entirely.
+
 ## The Three Pillars Framework
 
 Our mathematical proof rests on three observable pillars that can be measured using standard analytic number theory:
