@@ -36,18 +36,24 @@ In this framework:
 - **The critical line becomes a stable attractor** rather than a boundary condition
 - **Vector magnitude vanishes** while directional phase information becomes degenerate
 
-### Avoiding the Locus of Potential Zeros Trap
+### Avoiding the Locus of Potential Zeros Trap:
 
 Most attempted proofs of the Riemann Hypothesis fall into what we term the **Locus of Potential Zeros trap**: they construct a geometric curve in the complex plane, demonstrate that all known zeros lie on it, then argue the curve is too "constrained" to permit off-line zeros. However, such curves can only show where zeros *could* exist—they lack the mathematical power to *force* ζ(s) to vanish at specific locations.
+
+### The Contour Shrinking Trap:
+
+Classical approaches also frequently employ the **Contour Shrinking Trap**: constructing elaborate contour integrals around suspected zero locations, then arguing that shrinking these contours must capture exactly the expected zeros. These methods quietly trade on the conclusion they're trying to reach—the contour placement already assumes zero locations rather than discovering them independently.
+
+**Our Direct Detection Approach**: We work directly on the critical line s = ½ + it without any contour integration. Through the winding observable `w(t) = θ'(t) · C(t)` (where θ'(t) is phase speed and C(t) is a coherence kernel), zeros emerge as sharp phase-coherence spikes. This detector is completely blind—it never uses pre-computed zeros, never appeals to zero-free regions, and never integrates around loops. Zeros are discovered as local events on the line itself, not counted via shrinking paths in the plane.
 
 **The MKM Space Solution**: Rather than imposing geometric constraints, our approach builds σ-sensitive observables directly from the functional equation itself. The observable `Nα(σ,t) = |ζ(σ+it) − αζ(1−σ+it)|²` with phase α = e^(iπ/4) creates a natural detection mechanism where:
 - The critical line σ = 1/2 emerges as the minimum location rather than being assumed
 - Zero signatures manifest as simultaneous conditions: σ_min ≈ 1/2 and Nα(1/2,t) ≈ 0
 - The behavior stems from ζ itself, not from imposed symmetries or geometric assumptions
 
-This fundamental shift from *constraining potential locations* to *detecting actual zero signatures* represents a key methodological advance that circumvents the classical trap entirely.
+This fundamental shift from *constraining potential locations* to *detecting actual zero signatures* represents a key methodological advance that circumvents both classical traps entirely.
 
-## The Three Pillars Framework
+## The Three Pillars Framework:
 
 Our mathematical proof rests on three observable pillars that can be measured using standard analytic number theory:
 
@@ -69,7 +75,7 @@ Curvature(γ) = 8|ζ'(ρ)|² · sin²(θ) · W_even(γ)
 ```
 Defines the exact geometric curvature of the collapse space at the critical line, with numerical measurements matching analytical predictions.
 
-## Official Predictive Proof Validation
+## Official Predictive Proof Validation:
 
 **CONFIRMED**: All three pillars have been officially validated through predictive proof up to **Riemann Zero #103,800,788,268** at imaginary height **γ = 30,610,045,974.4183971526866922832927218839151**.
 
@@ -81,11 +87,11 @@ The MKM Dual-Kernel Winding-Time Locator successfully predicted and located 15 c
 
 This represents the first successful **predictive validation** of the complete Three Pillars Framework at extreme computational heights, confirming the geometric foundation of the MKM Space approach to the Riemann Hypothesis.
 
-### Professional Reference
+### Professional Reference:
 
 For researchers and mathematicians seeking verification of high-altitude predictions, reference **`MKM_OFFICIAL_PREDICTIVE_PROOF.png`** for validated zero predictions at **T ≥ 3.061 × 10¹⁰** and higher computational ranges, observing the predictions within the illustrated winding-time latency framework.
 
-## Repository Contents
+## Repository Contents:
 
 ### Core Implementation
 - **`Three_Points.py`** - Complete implementation of the Golden Closure Framework
@@ -102,7 +108,7 @@ For researchers and mathematicians seeking verification of high-altitude predict
 - **Geometric Curvature** analysis
 - **Zeta Function** specialized computations
 
-## Technical Requirements
+## Technical Requirements:
 
 ### Dependencies
 ```python
@@ -112,14 +118,14 @@ matplotlib >= 3.3.0
 mpmath >= 1.2.0  # High-precision mathematical computations
 ```
 
-### Installation
+### Installation:
 ```bash
 git clone https://github.com/jmullings/Whats_The_Point.git
 cd Whats_The_Point
 pip install -r requirements.txt
 ```
 
-### Usage Example
+### Usage Example:
 ```python
 from Three_Points import GoldenClosureFramework
 
@@ -136,7 +142,7 @@ winding_signal = gcf.extract_winding_observable(t_range)
 curvature = gcf.compute_curvature_formula(gamma_value)
 ```
 
-## Mathematical Significance
+## Mathematical Significance:
 
 ### Theoretical Implications
 1. **Dimensional Expansion**: Elevates number theory from line-based to manifold-based analysis
@@ -150,7 +156,7 @@ curvature = gcf.compute_curvature_formula(gamma_value)
 - **Cross-Correlation Analysis**: Statistical validation of geometric predictions
 - **Dimensional Projection**: Observable shadows matching classical results
 
-## What Makes This Approach Unique
+## What Makes This Approach Unique"
 
 The following five uniqueness points are derived directly from the six-panel analysis and represent precise, defensible claims grounded in what the visualizations demonstrate:
 
