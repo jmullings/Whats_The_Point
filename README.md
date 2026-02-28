@@ -7,6 +7,10 @@
 [![Zeta Function](https://img.shields.io/badge/Zeta-Function-orange.svg)](https://en.wikipedia.org/wiki/Riemann_zeta_function)
 [![arXiv](https://img.shields.io/badge/arXiv-Seeking%20Endorsement-b31b1b.svg)](https://arxiv.org/auth/endorse?x=6UJOEK)
 
+<!-- Zenodo DOI badge: replace DOI_GOES_HERE with your DOI (e.g. 10.5281/zenodo.8475) -->
+[![DOI](https://zenodo.org/badge/DOI/DOI_GOES_HERE.svg)](https://doi.org/DOI_GOES_HERE)
+
+
 **Topics**: `riemann-hypothesis` `riemann-zeta-function` `number-theory` `analytic-number-theory` `mathematics` `zeros-of-zeta` `critical-line` `prime-numbers` `mathematical-physics` `golden-ratio` `mkm-space` `mullings-kayeka-modulus`
 
 ## Abstract
